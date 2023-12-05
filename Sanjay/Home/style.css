@@ -1,0 +1,784 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 13px 30px;
+    align-items: center;
+    border-bottom: 1px solid rgb(181, 175, 175);
+    background-color: white;
+    z-index: 100;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    text-align: center;
+    display: inline;
+    list-style: none;
+    flex: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav .mobile-menu {
+    display: none;
+}
+
+.main-login a {
+    background-color: white;
+    color: #2B7BFF;
+    padding: 5px;
+    border: 1px solid #2B7BFF;
+}
+
+.main-section {
+    padding-top: 7.6rem;
+}
+
+.main-container {
+    display: flex;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.main-container .about {
+    width: 50%;
+    color: black;
+    padding-top: 3rem;
+}
+
+.about-img img,
+iframe {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 2.2rem;
+}
+
+.about1 {
+    padding-left: 5rem;
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+
+.about p,
+h4 {
+    padding: 2rem 5rem 0px 6rem;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+}
+
+.about span {
+    color: #2B7BFF;
+}
+
+.platform {
+    display: flex;
+    gap: 5rem;
+}
+
+.download {
+    display: flex;
+    width: 2rem;
+    gap: 0.2rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+
+.play-store {
+    font-size: 1rem;
+
+}
+
+.download {
+    display: flex;
+    width: 1rem;
+    gap: 1rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    border: 1px solid rgb(227, 222, 222);
+}
+
+.play-store {
+    font-size: 1rem;
+}
+
+.download img {
+    width: 0.1rem;
+}
+
+
+.about .button-1 {
+    width: 8rem;
+    height: 2rem;
+    color: #2B7BFF;
+    font-weight: bold;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.about .button-1 a {
+    color: #00AECA;
+}
+
+.main-section-2 {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.main-section-2 h1 {
+    padding-top: 4.2rem;
+    padding-bottom: 2rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.our-story {
+    display: flex;
+    gap: 7rem;
+    padding: 4rem;
+    justify-content: center;
+}
+
+.our-story .us-img img {
+    width: 10rem;
+}
+
+.our-story .us-img h3 {
+    padding-top: 2rem;
+    padding-left: 1.3rem;
+    font-weight: bold;
+}
+
+.our-story .us-img p {
+    padding-left: 1.3rem;
+    font-weight: 600;
+}
+
+.main-section-3 {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+   
+}
+
+.why h2 {
+  padding-top: 2rem;
+    text-align: center;
+}
+
+.why .sp {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.main-container1 {
+    display: flex;
+   padding: 0rem 12rem 0rem 12rem;
+}
+
+.main-section-3 .about-img1 img {
+    padding-top: 2rem;
+    border-radius: 50px;
+    width: 25rem;
+}
+
+.main-section-3 .about h3 {
+    padding-top: 5rem;
+    padding-left: 6rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.main-section-4 {
+    background-color: #F4F9FF;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.main-section-4 .offer-heading h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-section-4 .banking {
+    display: flex;
+    width: 30%;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    margin-top: 2.5rem;
+    border: 1px solid lightgrey;
+    background-color: white;
+    height: 3rem;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.main-section-4 .banking p {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: #3C3C3B;
+    cursor: pointer;
+}
+
+.main-section-4 .banking .banking1 {
+    background-color: #0f64ec;
+    color: white;
+}
+
+.Merchant-Offerings {
+    /* overflow: scroll; */
+    /* display: flex; */
+    /* gap: 3rem; */
+    padding-left: 16.1rem;
+    padding-top: 2rem;
+    padding-right: 16.1rem;
+    width: 100%;
+}
+
+.Merchant-img {
+    background-color: white;
+    border: 1px solid rgb(222, 222, 213);
+    border-radius: 5px;
+}
+
+.Merchant-img img {
+    /* width: 30rem; */
+    border-radius: 20px;
+    padding: 1rem;
+    height: 25rem;
+    width: 25rem;
+}
+
+.Merchant-img h1 {
+    text-align: center;
+    color: #1C1C1C;
+    font-weight: 760;
+}
+
+.Merchant-img p {
+    padding-top: 1rem;
+    text-align: center;
+    color: #919191;
+    font-weight: 760;
+    padding-bottom: 2rem;
+}
+
+.Merchant-img a {
+    color: #2b7bff;
+    font-weight: 760;
+    padding-left: 17rem;
+}
+
+.main-section-5 .Consumer-Offerings {
+    /* margin-left: 27rem; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+.main-section-5 .container {
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 8px;
+}
+
+.container-1 .postpe {
+    margin-top: 2rem;
+}
+
+.container-1 h2 {
+    margin-left: 1px;
+}
+
+.growing {
+    display: flex;
+    gap: 30px;
+    margin-top: 1rem;
+}
+
+.container-1 a {
+    color: #0f64ec;
+}
+
+.main-section-6 {
+    margin-bottom: 9rem;
+}
+
+.BharatPe-Merchant-Stories-1 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Poppins;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+
+.BharatPe-Merchant-Stories-2 {
+    display: flex;
+    gap: 6rem;
+    margin-left: 6rem;
+}
+
+.BharatPe-Merchant-Stories-img {
+    width: 26%;
+    text-align: center;
+    /* margin: 10px;
+    padding: 30px; */
+    /* height: 378px; */
+}
+
+.BharatPe-Merchant-Stories-img img {
+    border-radius: 50%;
+}
+
+.BharatPe-Merchant-Stories-img a {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.fa-play {
+    width: 65px;
+    height: 65px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    padding: 20px 15px;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background: rgba(27, 27, 27, 0.26);
+
+}
+
+.BharatPe-Merchant-Stories-img h2 {
+    padding-top: 2.5rem;
+    padding-left: 0.4rem;
+    color: #000F3B;
+    font-weight: bold;
+}
+
+.BharatPe-Merchant-Stories-img p {
+    padding-top: 0.9rem;
+    padding-left: 1.6rem;
+    color: #707070;
+    font-weight: bold;
+}
+
+.mohd {
+    margin-left: 3rem;
+}
+
+.main-section-6 button {
+    margin-left: 42rem;
+    margin-top: 2rem;
+    border: 1px solid #0f64ec;
+    width: 8rem;
+    height: 2rem;
+    background-color: white;
+    color: #00AECA;
+}
+
+.main-section-6 button a {
+    color: #00AECA;
+}
+
+.main-section-7 {
+    margin: 4rem;
+}
+
+.Recent-News {
+    margin-bottom: 3.5%;
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+.Recent-News-card {
+    display: flex;
+    gap: 2rem;
+}
+
+.Recent-News-card-1 {
+    width: 50%;
+    padding: 2rem 1rem 1.5rem 1rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+}
+
+.Recent-News-card-1 .Recent-News-card-date {
+    font-weight: bold;
+    color: RGB(139, 151, 170);
+}
+
+.Recent-News-card-1 .Recent-News-card-2 {
+    padding-top: 0.9rem;
+    padding-bottom: 1.3rem;
+    font-weight: 100;
+    font-size: 1.3rem;
+    color: #000923;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    line-height: 1.75rem;
+}
+
+.Recent-News-card-1 .Recent-News-card-content {
+    color: gray;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.Recent-News-card-1 .Recent-News-card-read {
+    color: #00AECA;
+}
+
+.Recent-News-card-view {
+    margin-top: 4rem;
+    margin-left: 21rem;
+    border: 1px solid #00AECA;
+    padding: 0.7rem 1.9rem 0.7rem 1.9rem;
+    background-color: white;
+  
+}
+
+.Recent-News-card-view a {
+    color: #00AECA;
+}
+
+
+
+
+
+
+
+
+
+/*footer start*/
+footer {
+    background-color: rgb(28, 28, 28);
+    box-sizing: content-box;
+}
+
+.footer-1 {
+    padding: 64px 0px 16px;
+}
+
+.footer-1-container {
+    margin: 0 59.600px;
+    display: flex;
+
+}
+
+.fl-1-para {
+    color: #cccccc;
+    font-family: Poppins, sans-serif;
+    padding: 32px 20px 32px 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.fl-download-para,
+.anchor {
+    text-decoration: none;
+    color: #cccccc;
+    font-family: 'Poppins';
+    font-weight: 600 !important;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .1px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    height: 53px;
+    width: 163px;
+}
+
+.btn img {
+    height: 53px;
+    width: 163px;
+}
+
+.h4 {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .1px;
+    margin-bottom: 15px;
+
+}
+
+
+
+.ul .li {
+    list-style-type: none;
+    color: #cccccc;
+    font-family: "poppins";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 26.2px;
+    letter-spacing: .4px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 100px;
+
+}
+
+.ul .li:hover {
+    color: #00AECA;
+}
+
+.btn {
+    margin-right: 10px;
+    transition: all .5s;
+}
+
+.top-spacing {
+    padding-top: 20px;
+}
+
+.m-30 {
+    margin: 30px 0;
+}
+
+.p-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.footer-div-1 {
+
+    width: 40%;
+}
+
+.footer-div-2 {
+    width: 23%;
+}
+
+.footer-div-3 {
+    width: 17%;
+}
+
+.footer-div-4 {
+    width: 20%;
+}
+
+hr {
+    border: 1px solid rgb(51, 51, 51, 0.7)
+}
+
+.footer-2-container img {
+    margin: 16px;
+}
+
+.footer-2,
+.footer-3 {
+    padding: 32px 0;
+}
+
+.footer-2-container,
+.footer-3-container {
+    margin: 0 59.6px;
+}
+
+.footer-3-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-3-container p {
+    color: #cccccc;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.footer-3 i {
+    padding: 5px;
+    color: rgb(101, 102, 108);
+    font-size: 25px;
+    margin-right: 2px;
+
+}
+
+.footer-3 i:last-child {
+    margin-left: 20px;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.icon .anchor .footer-3 i:hover {
+    color: rgba(6, 147, 227, 1);
+}
+
+
+
+/*footer ends*/
+
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .main-login {
+        display: none;
+    }
+
+    nav .mobile-menu {
+        display: initial;
+        padding-left: 11rem;
+    }
+
+    .main-container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .about1 {
+        padding-left: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .main-container .about p,h4 {
+        padding-left: 0.3rem;
+        padding-right: 0;
+    }
+    .platform{
+        flex-wrap: wrap;
+        gap: 0rem;
+    }
+
+    .our-story{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .main-section-2 h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .main-container1{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .main-section-3 .about-img1 img {
+        /* padding-left: 1rem; */
+        width: 23rem;
+    }
+
+    .main-section-3 .about h3 {
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+    .main-container1 .about p{
+        padding-left: 1rem;
+    }
+    .main-section-4 .banking {
+        margin-left: 2rem;
+    }
+    .Merchant-Offerings {
+        padding-left: 3.4rem;
+        padding-top: 1rem;
+        padding-right: 2rem;
+    }
+
+    .Merchant-img a {
+        padding-left: 9rem;
+    }
+    .main-section-5 .Consumer-Offerings{
+        font-size: 2rem;
+    }
+
+    .main-section-5 .container {
+        flex-wrap: wrap;
+        margin-left: 0rem;
+    }
+
+    .BharatPe-Merchant-Stories-2 {
+        flex-wrap: wrap;
+    }
+
+    .BharatPe-Merchant-Stories-img {
+        width: 50%;
+        text-align: center;
+
+    }
+    .Recent-News-card {
+       flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .Recent-News-card-1 {
+        width: 100%;
+        margin-right: 1rem;
+    }
+
+    .Recent-News-card-view {
+    display: none;
+    }
+    .footer-1-container {
+       flex-wrap: wrap;
+    }
+    .footer-3-container{
+        flex-wrap: wrap;
+    }
+}
+
