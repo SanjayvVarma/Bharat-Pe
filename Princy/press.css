@@ -1,0 +1,420 @@
+.first-image {
+
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    vertical-align: baseline;
+    background-image: url('images/cameralady.jpg');
+
+}
+
+.press {
+    font-size: 48px;
+    padding-left: 20%;
+    padding-top: 12%;
+    text-align: start;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFF;
+
+}
+
+.one-liner {
+
+    font-family: 'Poppins';
+    line-height: 26px;
+    padding-left: 20%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    box-sizing: content-box;
+
+}
+
+.button1 {
+    margin-left: 20%;
+    margin-right: 1%;
+    background-color: #2B7BFF;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    border-left: 200px;
+    cursor: pointer;
+
+}
+
+.button2 {
+    background-color: white;
+    color: #2B7BFF;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    margin-top: 5%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.image1 {
+    border-radius: 10px;
+    margin: 4%;
+    height: fit-content;
+}
+
+.container {
+    display: flex;
+    background: overlay;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px 0.5px gray;
+    border-radius: 10px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.recent {
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 100%;
+    /* padding-bottom: 32px; */
+    color: #1c1c1c;
+}
+.image2{
+    margin: 5%;
+}
+.date{
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0px 0px 15px;
+    text-decoration: none solid rgb(112, 112, 112);
+}
+.bharat{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 30px; */
+    letter-spacing: .15px;
+    color: #1C1C1C;
+}
+.revenue{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-decoration: none solid #707070;
+}
+.leading{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #707070;
+}
+.read{ 
+    
+    border: none;
+    color: #2B7BFF;
+    text-underline-position: remove;
+    background-color: white;
+
+}
+.container1 {
+    margin-top: 7%;
+    background: overlay;
+    display: flex;
+    flex-wrap: wrap;
+    /* min-height: 1440px; */
+}
+.news,
+.story,
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6 {
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 0 10px 20px 0;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px 0.5px gray;
+    border-radius: 10px;
+    padding: 10px;
+    --mfn-column-gap-bottom: 40px;
+    --mfn-column-gap-left: 12px;
+    --mfn-column-gap-right: 12px;
+    
+}
+.main {
+    font-size: 30px;
+   margin-top: 42px;
+}
+.view{
+    margin: 10%;
+    padding-left: 25%;
+    justify-content: space-between;
+    border-radius: 4px;
+    background: #FFF;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #2B7BFF;
+}
+
+.presskit{
+    text-align: center;
+    background: overlay;
+    color: black;
+    font-size: 30px;
+    margin-top: 42px;
+}
+.container2 {
+    margin-top: 7%;
+    background: overlay;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px 0.5px gray;
+    border-radius: 10px;
+}
+.download1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    transition: opacity 0.8s ease-in-out;
+    opacity: 1;
+    overflow: hidden;
+}
+.downloadPress {
+    text-align: center;
+
+}
+.downloadPress img {
+    max-width: 100%;
+    height: auto;
+
+}
+.downloadPress h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.downloadPress a.tests {
+    display: block;
+    background-color: #fff;
+    color: #2B7BFF;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+   
+}
+.downloadPress a.tests:hover {
+    background-color: #d8d9e7;
+
+}
+.section_Hld {
+    margin-top: 5rem;
+    background-color: #2B7BFF; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.Sec_Heading h3 {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    font-weight: 700;   
+    color: #ffffff;
+}
+mailto {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+@media only screen and (max-width: 768px) {
+    .first-image {
+        height: 40vh;
+        
+    }
+
+    .press {
+        padding-left: 10%;
+        padding-top: 8%;
+    }
+    .one-liner {
+        padding-left: 10%;
+    }
+
+    .button1,
+    .button2 {
+        margin-left: 10%;
+    }
+
+    .main {
+        font-size: 30px;
+    }
+
+    .image1 {
+        margin: 2%;
+    }
+
+    .container {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .recent {
+        font-size: 24px;
+    }
+
+    .image2 {
+        margin: 2%;
+    }
+
+    .date {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 0px 0px 10px;
+    }
+
+    .bharat {
+        font-size: 16px;
+    }
+
+    .revenue {
+        font-size: 14px;
+    }
+
+    .leading {
+        font-size: 14px;
+    }
+
+    .read {
+        font-size: 12px;
+    }
+
+    .container1 {
+        margin-top: 5%;
+    }
+
+    .news,
+    .story,
+    .c1,
+    .c2,
+    .c3,
+    .c4,
+    .c5,
+    .c6 {
+        flex: 0 0 calc(50% - 20px);
+        margin: 0 10px 20px 0;
+       
+    }
+
+    .download1 {
+        width: 50%;
+        
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .first-image {
+        height: 30vh;
+        
+    }
+
+    .press {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    .one-liner {
+        padding-left: 5%;
+    }
+
+    .button1,
+    .button2 {
+        margin-left: 5%;
+    }
+
+    .main {
+        font-size: 20px;
+    }
+
+    .image1 {
+        margin: 1%;
+    }
+
+    .container {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+
+    .recent {
+        font-size: 18px;
+    }
+
+    .image2 {
+        margin: 1%;
+    }
+
+    .date {
+        font-size: 8px;
+        line-height: 12px;
+        margin: 0px 0px 8px;
+    }
+
+    .bharat {
+        font-size: 14px;
+    }
+
+    .revenue {
+        font-size: 12px;
+    }
+
+    .leading {
+        font-size: 12px;
+    }
+
+    .read {
+        font-size: 10px;
+    }
+
+    .container1 {
+        margin-top: 3%;
+    }
+
+    .news,
+    .story,
+    .c1,
+    .c2,
+    .c3,
+    .c4,
+    .c5,
+    .c6 {
+        flex: 0 0 calc(100% - 20px);
+        margin: 0 10px 20px 0;
+        
+    }
+
+    .download1 {
+        width: 100%;
+        
+    }
+}
+
