@@ -126,6 +126,11 @@ nav ul li a i {
     color: #4F4F4F;
 }
 
+.below-div-item:hover {
+    color: #0483f9;
+    cursor: pointer;
+}
+
 .below-nav {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -151,11 +156,6 @@ nav ul li a i {
     font-family: 'poppins';
     font-weight: 700;
     color: #4F4F4F;
-}
-
-.below-div-item:hover {
-    color: #0483f9;
-    cursor: pointer;
 }
 
 .top {
@@ -239,7 +239,8 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     margin: 0 100px;
-    justify-self: center;
+    justify-content: center;
+    height: 100%;
 
 }
 
@@ -273,6 +274,10 @@ h3 {
     padding-bottom: 70px;
 }
 
+span.terms-and-conditions {
+    color: grey;
+    font-size: 12px;
+}
 
 
 
@@ -319,6 +324,7 @@ h3 {
     flex-wrap: wrap;
     align-self: center;
     text-align: left;
+    width: 50%;
 }
 
 h4 {
@@ -330,6 +336,13 @@ h4 {
     color: #1C1C1C;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+span.step {
+    font-size: 14px;
+    color: grey;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
 /*slider 1*/

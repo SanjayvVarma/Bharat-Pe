@@ -55,6 +55,15 @@ nav ul a {
     padding: 30px 20px;
     color: black;
     font-family: 'poppins';
+    font-weight: 700;
+}
+
+nav ul a:hover {
+    background: #f5f7fa;
+    color: #0483f9;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: #fff;
 }
 
 nav ul li {
