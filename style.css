@@ -405,7 +405,7 @@ h4 {
 }
 
 .main-section-6 button {
-    margin-left: 42rem;
+    margin-left: 35rem;
     margin-top: 2rem;
     border: 1px solid #0f64ec;
     width: 8rem;
@@ -469,7 +469,7 @@ h4 {
 
 .Recent-News-card-view {
     margin-top: 4rem;
-    margin-left: 21rem;
+    margin-left: 25.5rem;
     border: 1px solid #00AECA;
     padding: 0.7rem 1.9rem 0.7rem 1.9rem;
     background-color: white;
@@ -760,6 +760,11 @@ hr {
         text-align: center;
 
     }
+
+    .main-section-6 button{
+        margin-left: 8.2rem;
+    }
+    
     .Recent-News-card {
        flex-wrap: wrap;
         gap: 2rem;
@@ -772,7 +777,7 @@ hr {
     }
 
     .Recent-News-card-view {
-    display: none;
+   margin-left: 5rem;
     }
     .footer-1-container {
        flex-wrap: wrap;
