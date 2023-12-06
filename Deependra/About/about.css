@@ -13,9 +13,14 @@ body{
 }
 
 /* nav-start */
+
+
+
 nav {
-    width: 100%;
+   top: 0;
     position: fixed;
+    height: 60px;
+    width: 100%;
     overflow: clip;
     font-family: 'poppins', san-serif;
     background-color: white;
@@ -25,7 +30,7 @@ nav {
 
 .nav-items {
     height: 60px;
-    margin: 0 28px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -41,6 +46,13 @@ nav {
     width: 142px
 }
 
+.nav-items ul a:hover{
+color: #0058e7;
+background: #f5f7fa
+}
+
+
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -52,6 +64,7 @@ nav ul {
 }
 
 nav ul a {
+    transition: all 0.3s ease-in-out;
     text-decoration: none;
     font-size: 14px;
     padding: 30px 20px;
@@ -67,20 +80,6 @@ nav ul li {
 
 
 }
-
-nav ul li a i {
-    font-size: 14px;
-
-}
-
-#products {
-    background: #f5f7fa;
-    color: #0483f9;
-    font-weight: bold;
-    text-decoration: none;
-    border-color: #fff;
-}
-
 .nav-button {
     box-sizing: border-box;
     display: flex;
@@ -101,6 +100,10 @@ nav ul li a i {
     text-transform: uppercase;
 }
 
+.fa-solid{
+    color: black;
+}
+
 .nav-button-container-text-img i {
     align-items: center;
     font-size: 12px;
@@ -108,7 +111,16 @@ nav ul li a i {
     padding: 6px;
 }
 
+.hidden{
+    display:none;
+}
+
+.hidden-1{
+    display: none;
+}
+
 /* nav-end */
+
 /*footer start*/
 footer {
     background-color: rgb(28, 28, 28);
@@ -229,6 +241,10 @@ hr {
     border: 1px solid rgb(51, 51, 51, 0.7)
 }
 
+.up-arrow{
+    display: none;
+}
+
 .footer-2-container img {
     margin: 16px;
 }
@@ -258,7 +274,7 @@ hr {
     padding: 5px;
 }
 
-.i {
+.icon i {
     padding: 5px;
     color: rgb(101, 102, 108);
     font-size: 25px;
