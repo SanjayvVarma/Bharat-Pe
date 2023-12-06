@@ -179,11 +179,11 @@ h4 {
 .main-section-3 {
     margin-top: 1rem;
     margin-bottom: 3rem;
-   
+
 }
 
 .why h2 {
-  padding-top: 2rem;
+    padding-top: 2rem;
     text-align: center;
 }
 
@@ -194,7 +194,7 @@ h4 {
 
 .main-container1 {
     display: flex;
-   padding: 0rem 12rem 0rem 12rem;
+    padding: 0rem 12rem 0rem 12rem;
 }
 
 .main-section-3 .about-img1 img {
@@ -405,7 +405,7 @@ h4 {
 }
 
 .main-section-6 button {
-    margin-left: 42rem;
+    margin-left: 35rem;
     margin-top: 2rem;
     border: 1px solid #0f64ec;
     width: 8rem;
@@ -469,11 +469,11 @@ h4 {
 
 .Recent-News-card-view {
     margin-top: 4rem;
-    margin-left: 21rem;
+    margin-left: 25.5rem;
     border: 1px solid #00AECA;
     padding: 0.7rem 1.9rem 0.7rem 1.9rem;
     background-color: white;
-  
+
 }
 
 .Recent-News-card-view a {
@@ -666,7 +666,8 @@ hr {
         padding: 0;
         box-sizing: border-box;
     }
-    body{
+
+    body {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -689,31 +690,36 @@ hr {
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
+
     .about1 {
         padding-left: 1rem;
         font-size: 1rem;
         font-weight: bold;
     }
-    .main-container .about p,h4 {
+
+    .main-container .about p,
+    h4 {
         padding-left: 0.3rem;
         padding-right: 0;
     }
-    .platform{
+
+    .platform {
         flex-wrap: wrap;
         gap: 0rem;
     }
 
-    .our-story{
+    .our-story {
         flex-wrap: wrap;
         gap: 2rem;
     }
+
     .main-section-2 h1 {
         font-size: 2rem;
         font-weight: bold;
         text-align: center;
     }
 
-    .main-container1{
+    .main-container1 {
         flex-wrap: wrap;
         padding: 0;
     }
@@ -727,12 +733,15 @@ hr {
         padding-top: 2rem;
         padding-left: 1rem;
     }
-    .main-container1 .about p{
+
+    .main-container1 .about p {
         padding-left: 1rem;
     }
+
     .main-section-4 .banking {
         margin-left: 2rem;
     }
+
     .Merchant-Offerings {
         padding-left: 3.4rem;
         padding-top: 1rem;
@@ -742,7 +751,8 @@ hr {
     .Merchant-img a {
         padding-left: 9rem;
     }
-    .main-section-5 .Consumer-Offerings{
+
+    .main-section-5 .Consumer-Offerings {
         font-size: 2rem;
     }
 
@@ -760,8 +770,13 @@ hr {
         text-align: center;
 
     }
+
+    .main-section-6 button {
+        margin-left: 8.2rem;
+    }
+
     .Recent-News-card {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
         gap: 2rem;
         justify-content: center;
     }
@@ -772,13 +787,27 @@ hr {
     }
 
     .Recent-News-card-view {
-    display: none;
+        margin-left: 5rem;
     }
+
     .footer-1-container {
-       flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
     }
-    .footer-3-container{
-        flex-wrap: wrap;
+
+    .footer-1-container {
+        margin: 0 21.6px;
+    }
+
+    .footer-1 {
+        width: 100%;
+    }
+
+    .fl-1-para {
+        width: 25rem;
+    }
+
+    .p-12 {
+        width: 100%;
     }
 }
-
