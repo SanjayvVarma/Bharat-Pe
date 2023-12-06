@@ -55,11 +55,10 @@ nav {
 }
 
 .nav-items ul a:hover{
-color: #0058e7;
-background: #f5f7fa
-}
-
-
+    color: #0058e7;
+    background: #f5f7fa
+    }
+    
 
 nav ul {
     display: flex;
@@ -72,7 +71,6 @@ nav ul {
 }
 
 nav ul a {
-    transition: all 0.3s ease-in-out;
     text-decoration: none;
     font-size: 14px;
     padding: 30px 20px;
@@ -88,6 +86,20 @@ nav ul li {
 
 
 }
+
+nav ul li a i {
+    font-size: 14px;
+
+}
+
+#products {
+    background: #f5f7fa;
+    color: #0483f9;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: #fff;
+}
+
 .nav-button {
     box-sizing: border-box;
     display: flex;
@@ -108,15 +120,14 @@ nav ul li {
     text-transform: uppercase;
 }
 
-.fa-solid{
-    color: black;
-}
-
 .nav-button-container-text-img i {
     align-items: center;
     font-size: 12px;
     color:#2B7BFF;
     padding: 6px;
+}
+.hidden{
+    display:none;
 }
 
 /* nav-end */
@@ -127,7 +138,7 @@ section{
 }
 
 .image-section{
-    background-image: url("/image/blog-main-banner-scaled.jpg");
+    background-image: url("/Bharat-Pe/Deependra/image/blog-main-banner-scaled.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     height: 500px;
@@ -214,3 +225,177 @@ hr , span, i{
 .icons i:hover{
     color: var(--color-blue);
 }
+
+/*footer start*/
+footer {
+    background-color: rgb(28, 28, 28);
+    box-sizing: content-box;
+}
+
+.footer-1 {
+    padding: 64px 0px 16px;
+}
+
+.footer-1-container {
+    margin: 0 59.600px;
+    display: flex;
+
+}
+
+
+
+.fl-1-para {
+    color: #cccccc;
+    font-family: Poppins, sans-serif;
+    padding: 32px 20px 32px 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.fl-download-para,
+footer a {
+    text-decoration: none;
+    color: #cccccc;
+    font-family: 'Poppins';
+    font-weight: 600 !important;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .1px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    height: 53px;
+    width: 163px;
+}
+
+.btn img {
+    height: 53px;
+    width: 163px;
+}
+
+footer h4 {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .1px;
+    margin-bottom: 15px;
+
+}
+
+
+
+footer ul li {
+    list-style-type: none;
+    color: #cccccc;
+    font-family: "poppins";
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 26.2px;
+    letter-spacing: .4px;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+footer ul li:hover {
+    color: #00AECA;
+}
+
+.btn {
+    margin-right: 10px;
+    transition: all .5s;
+}
+
+.top-spacing {
+    padding-top: 20px;
+}
+
+.m-30 {
+    margin: 30px 0;
+}
+
+.p-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.footer-div-1 {
+
+    width: 40%;
+}
+
+.footer-div-2 {
+    width: 23%;
+}
+
+.footer-div-3 {
+    width: 17%;
+}
+
+.footer-div-4 {
+    width: 20%;
+}
+
+hr {
+    border: 1px solid rgb(51, 51, 51, 0.7)
+}
+
+.up-arrow{
+    display: none;
+}
+
+.footer-2-container img {
+    margin: 16px;
+}
+
+.footer-2,
+.footer-3 {
+    padding: 32px 0;
+}
+
+.footer-2-container,
+.footer-3-container {
+    margin: 0 59.6px;
+}
+
+.footer-3-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-3-container p {
+    color: #cccccc;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.icon i {
+    padding: 5px;
+    color: rgb(101, 102, 108);
+    font-size: 25px;
+    margin-right: 2px;
+
+}
+
+footer i:last-child {
+    margin-left: 20px;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.icon a i:hover {
+    color: rgba(6, 147, 227, 1);
+}
+

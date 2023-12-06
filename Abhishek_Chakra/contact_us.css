@@ -229,9 +229,10 @@ nav ul li {
     height: auto;
 }
 
-.customer-suport-text{
+.customer-suport-text h4{
     font-size: 200%;
     font-weight:700;
+    color: black;
 }
 .customer-contect-us{
     font-size: 150%;
@@ -446,12 +447,117 @@ i:last-child {
         display: none;
     }
 
-    .main-login {
+    .nav-button{
         display: none;
     }
 
     nav .mobile-menu {
         display: initial;
-        padding-left: 11rem;
-    }
+        /* padding-left: 11rem; */
+    }
+
+    .map{
+        display: none;
+    }
+
+    .office-adress{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgb(240, 227, 227);
+    }
+
+    .heading-our-office{
+        font-size: 100%;
+    }
+
+    .our-offices{
+        margin: 50px 20px;
+    }
+
+    .image-section{
+       height: 50vh;
+    }
+
+    .footer-3-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blog-heading h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 200%;
+    margin-bottom: 15px;
+   }  
+
+   .customer{
+      margin: 10px 0px
+      padding: 3px 20px;
+    }
+
+   .customer-icon img{
+       max-width: 77px;
+    }
+
+    .customer-suport-text h4{
+        font-size: 100%;
+    }
+    .customer-contect-us{
+      font-size: 80%;
+    }
+
+    .footer-1{
+        padding: 10px 10px;
+        width: 100%;
+    }
+   .footer-1-container{
+    flex-direction: column;
+    width: 100%;
+    padding: 0 5px;
+    margin: 0;
+   }
+
+   .fl-1-para{
+    width: 100%;
+    padding: 0;
+   }
+
+   .footer-div-1{
+    width: fit-content;
+   }
+   
+}
+
+@media screen and (max-width: 768px){
+    
+    .map{
+        display: none;
+    }
+
+    .office-adress{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgb(240, 227, 227);
+    }
+
+    .our-offices{
+        margin: 50px 20px;
+    }
+    nav ul {
+        display: none;
+    }
+
+    .nav-button{
+        display: none;
+    }
+    
+    .footer-3-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
 }

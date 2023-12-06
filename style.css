@@ -43,11 +43,13 @@ nav .mobile-menu {
     display: none;
 }
 
-.main-login a {
+.main-login  {
     background-color: white;
-    color: #2B7BFF;
     padding: 5px;
     border: 1px solid #2B7BFF;
+}
+.main-login a{
+    color: #2B7BFF;
 }
 
 .main-section {
