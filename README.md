@@ -47,6 +47,15 @@ Welcome to BharatPe, your all-in-one fintech solution designed to revolutionize 
 ### future scope
 * Integration with more financial platforms.
 * Collaborative more transaction history.
+## Screenshots
+* [section-1](./Sanjay/images/1.jpg)
+* [section-2](./Sanjay/images/2.jpg)
+* [section-3](./Sanjay/images/3.jpg)
+* [section-4](./Sanjay/images/4.jpg)
+* [section-5](./Sanjay/images/5.jpg)
+* [section-6](./Sanjay/images/6.jpg)
+* [section-7](./Sanjay/images/7.jpg)
+* [section-8](./Sanjay/images/8.jpg)
 
 
 ## 2. RESOURCES- BharatPe

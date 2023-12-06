@@ -20,14 +20,14 @@ Welcome to the BharatPe Project, a fintech initiative aimed at simplifying finan
 
 ## Screenshots
 
-[section-1](./images/1.jpg)
-[section-1](./images/2.jpg)
-[section-1](./images/3.jpg)
-[section-1](./images/4.jpg)
-[section-1](./images/5.jpg)
-[section-1](./images/6.jpg)
-[section-1](./images/7.jpg)
-[section-1](./images/8.jpg)
+* [section-1](./images/1.jpg)
+* [section-2](./images/2.jpg)
+* [section-3](./images/3.jpg)
+* [section-4](./images/4.jpg)
+* [section-5](./images/5.jpg)
+* [section-6](./images/6.jpg)
+* [section-7](./images/7.jpg)
+* [section-8](./images/8.jpg)
 
 
 
