@@ -47,3 +47,33 @@ Welcome to BharatPe, your all-in-one fintech solution designed to revolutionize 
 ### future scope
 * Integration with more financial platforms.
 * Collaborative more transaction history.
+
+
+## 2. RESOURCES- BharatPe
+
+### Description
+BharatPe - Empowering Your Financial Journey
+Welcome to BharatPe, your all-in-one fintech solution designed to revolutionize the way you manage and grow your business. Discover a world of seamless transactions, access to quick business loans, and a digital storefront to elevate your online presence.You have seen a stasified  customer  and review of bharatPe of the customer story.
+### What We've Learned:
+* Interaction with Bharatpe financial.
+* HTML and CSS basic javascript library.
+* used external package- bootstrap
+* used AOS animatian
+### future scope
+* Integration with more financial platforms.
+* Collaborative more transaction history.
+
+
+## 3. CAREERS- BharatPe
+
+### Description
+BharatPe - Empowering Your Financial Journey
+Welcome to BharatPe, your all-in-one fintech solution designed to revolutionize the way you manage and grow your business. Discover a world of seamless transactions, access to quick business loans, and a digital storefront to elevate your online presence.At bharatpe we are on in mission to empower businees across india by fincial technology.
+### What We've Learned:
+* Interaction with Bharatpe financial.
+* HTML and CSS basic javascript library.
+* used external package- bootstrap
+* used AOS animatian
+### future scope
+* Integration with more financial platforms.
+* Collaborative more transaction history.
