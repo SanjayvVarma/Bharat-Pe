@@ -1,3 +1,102 @@
+/*sub-menu*/
+.submenu-1,
+.submenu-2,
+.submenu-3,
+.submenu-4,
+.submenu-5 {
+    display: none;
+}
+
+.payments a,
+.banking a,
+.lending a,
+.consumer a {
+    text-decoration: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.submenu-1 li,
+.submenu-2 li,
+.submenu-4 li,
+.submenu-5 li {
+    display: inline-block;
+    width: 100%;
+    margin: 15px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #fff;
+}
+
+.submenu-2,
+.submenu-3,
+.submenu-4,
+.submenu-5 {
+    margin-left: 120px;
+    transform: translate(30px, -30px);
+
+}
+
+.submenu-1 li:hover {
+    cursor: pointer;
+}
+
+.submenu-2 .payments:hover .submenu-3 {
+    display: block;
+    position: absolute;
+    width: 200px;
+    z-index: 500;
+    text-align: right;
+
+}
+
+.product-menu:hover .submenu-1 {
+    display: flex;
+    position: absolute;
+    width: 200px;
+    z-index: 500;
+    text-align: right;
+
+}
+
+li.merchant:hover .submenu-2 {
+    display: block;
+    position: absolute;
+    width: 200px;
+    z-index: 500;
+    text-align: center;
+
+}
+
+li.consumer:hover .submenu-2 {
+    display: block;
+    position: absolute;
+    width: 200px;
+    z-index: 500;
+    text-align: center;
+
+}
+
+li.banking:hover .submenu-4 {
+    display: block;
+    position: absolute;
+    width: 200px;
+    z-index: 500;
+    text-align: center;
+
+}
+
+li.lending:hover .submenu-5 {
+    display: block;
+    position: absolute;
+    width: 200px;
+    z-index: 500;
+    text-align: center;
+}
+
+/*sub-menu*/
 .parterners {
     width: 100%;
     background-color: #F4F9FF;
@@ -47,4 +146,23 @@ img:hover {
     background: #2B7BFF;
     opacity: 1;
     transition: all .5s
+}
+
+@media screen and (max-width:786px) {
+    footer {
+        max-width: 786px;
+    }
+
+    .footer-1-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-1-container {
+        margin: 0 59.6px;
+    }
+}
+
+.footer-div {
+    width: 100%;
 }

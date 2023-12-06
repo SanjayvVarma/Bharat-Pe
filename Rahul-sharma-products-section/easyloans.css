@@ -307,6 +307,11 @@ textarea {
     text-decoration: none;
     transition: background-color .3s;
     display: flex;
+    cursor: pointer;
+}
+
+.c-submit:hover {
+    opacity: .7;
 }
 
 .m-5 {

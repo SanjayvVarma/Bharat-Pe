@@ -14,6 +14,10 @@
     ></script>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -32,10 +36,61 @@
         <ul>
           <li><a href="#Home">Home</a></li>
           <li><a href="#intro">About Us</a></li>
-          <li>
+          <li class="product-menu">
             <a href="#services" id="products"
               >Products <i class="fa-solid fa-angle-down"></i
             ></a>
+            <ul class="submenu-1">
+              <li class="merchant">
+                Merchants <i class="fa-solid fa-arrow-right"> </i>
+                <ul class="submenu-2">
+                  <li class="payments">
+                    <a href="./merchant-payment.html">
+                      Payments <i class="fa-solid fa-arrow-right"> </i
+                    ></a>
+                    <ul class="submenu-3">
+                      <a href="./merchant-payment-qr.html"
+                        ><li>BharatPe QR</li></a
+                      >
+                      <a href="./merchant-payment-swipe.html"
+                        ><li>BharatPe Swipe</li></a
+                      >
+                      <a href="./merchant-payment-speaker.html">
+                        <li>BharatPe Speaker</li></a
+                      >
+                    </ul>
+                  </li>
+                  <li class="banking">
+                    <a href="#"
+                      >Banking <i class="fa-solid fa-arrow-right"> </i
+                    ></a>
+                    <ul class="submenu-4">
+                      <a href="./landing-partners.html">
+                        <li>Investment Platform</li></a
+                      >
+                    </ul>
+                  </li>
+                  <li class="lending">
+                    <a href="#"
+                      >Lendings <i class="fa-solid fa-arrow-right"> </i
+                    ></a>
+                    <ul class="submenu-5">
+                      <a href="./bharatpe-easyloans.html">
+                        <li>BharatPe Easy Loans</li></a
+                      >
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="consumer">
+                Consumer <i class="fa-solid fa-arrow-right"></i>
+                <ul class="submenu-2">
+                  <a href="https://postpe.app/"><li>postpe</li></a>
+                  <a href="https://twelve.club/#/"><li>12% Club</li></a>
+                  <a href="https://zillionrewards.in/"><li>zillion</li></a>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#call_me"
@@ -259,14 +314,14 @@
           <div class="swiper-slide slide-2">
             <h3>Get your personalized QR in a few simple steps</h3>
             <div class="slide-2-main">
-              <div class="slide-2-main-img">
+              <div class="animate__zoomIn slide-2-main-img">
                 <img
                   src="https://bharatpe.com/wp-content/uploads/2022/12/schedule_visit.png"
                   alt=""
                   srcset=""
                 />
               </div>
-              <div class="slide-2-main-para">
+              <div class="animate__zoomIn slide-2-main-para">
                 <h4>
                   Tap on Get My QR code and get your personalized and
                   ready-to-use digital QR. You can download the QR in your
@@ -278,14 +333,14 @@
           <div class="swiper-slide slide-2">
             <h3>Get your personalized QR in a few simple steps</h3>
             <div class="slide-2-main">
-              <div class="slide-2-main-img">
+              <div class="animate__zoomIn slide-2-main-img">
                 <img
                   src="	https://bharatpe.com/wp-content/uploads/2022/12/evaluate_gold.png"
                   alt=""
                   srcset=""
                 />
               </div>
-              <div class="slide-2-main-para">
+              <div class="animate__zoomIn slide-2-main-para">
                 <h4>
                   Tap on order QR sticker to order a physical QR sticker for
                   your shop in just a few clicks
@@ -301,9 +356,10 @@
                   src="https://bharatpe.com/wp-content/uploads/2022/12/LOAN_OFFER_ON-TIME.png"
                   alt=""
                   srcset=""
+                  class="animate__zoomIn"
                 />
               </div>
-              <div class="slide-2-main-para">
+              <div class="animate__zoomIn slide-2-main-para">
                 <h4>
                   Your personalized BharatPe QR Sticker will be delivered to
                   your address
