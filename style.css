@@ -675,6 +675,10 @@ hr {
         box-sizing: border-box;
     }
 
+    nav {
+        position: fixed;
+    }
+
     nav ul {
         display: none;
     }
