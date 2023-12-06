@@ -7,6 +7,7 @@
         href="/Bharat-Pe/Deependra/image/favicon-32x32-1.png">
    
     <title>Build with BharatPe - BharatPe</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,21 +44,21 @@
       />
     </div>
     <ul>
-      <li><a href="#Home">Home</a></li>
+      <li><a href="/Bharat-Pe/index.html">Home</a></li>
       <li><a href="#intro">About Us</a></li>
       <li>
-        <a href="#services" 
+        <a href="/Bharat-Pe/Rahul-sharma-products-section/merchant-payment-speaker.html" 
           >Products <i class="fa-solid fa-angle-down"></i
         ></a>
       </li>
       <li>
-        <a href="#call_me" 
+        <a href="/Bharat-Pe/Deependra/Build-with-bharatpe/index.html" 
           >Resources <i class="fa-solid fa-angle-down"></i
         ></a>
       </li>
-      <li><a href="#projects">Press</a></li>
-      <li><a href="#about">Careers</a></li>
-      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="/Bharat-Pe/Princy/press.html">Press</a></li>
+      <li><a href="/Bharat-Pe/Deependra/careeres/index.html">Careers</a></li>
+      <li><a href="/Bharat-Pe/Abhishek_Chakra/contact_us.html">Contact Us</a></li>
     </ul>
     
     <div class="nav-button">
@@ -65,9 +66,12 @@
         <i class="fa-solid fa-bars "></i>
        </div>
       <div class="nav-button-container">
-        <div class="nav-button-container-text-img">
-          Login <i class="fas fa-user-alt"></i>
-        </div>
+        <a href="/Bharat-Pe/Sanjay/login/login.html">
+          <div class="nav-button-container-text-img">
+            Login <i class="fas fa-user-alt"></i>
+          </div>
+        </a>
+        
       </div>
     </div>
    <div class="hidden">
@@ -317,22 +321,29 @@
           <h3>Merchant Stories</h3>
           <p>Read the inspiring growth stories of BharatPe merchants</p>
         </div>
+        <div data-aos="flip-left">
         <div class="merchant-card">
-          <div class="single_merchant">
+          <!-- <div data-aos="flip-left"> -->
+             <div class="single_merchant">
             <a href="/story/surendra.html">
               <img src="https://bharatpe.com/wp-content/uploads/2023/01/surender.png" alt="">
             </a>
-          </div>
+             </div>
+          <!-- </div> -->
+          <!-- <div data-aos="flip-right"> -->
           <div class="single_merchant">
             <a href="/story/Birendra.html">
               <img src="https://bharatpe.com/wp-content/uploads/2023/01/birender.png" alt="">
             </a>
           </div>
+          <!-- </div> -->
+          <!-- <div data-aos="flip-up"> -->
           <div class="single_merchant">
             <a href="/story/shambhu.html">
               <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/Shambhu-new.png" alt="">
             </a>
           </div>
+        <!-- </div> -->
         </div>
       </div>
       <div class="view-more">
@@ -600,6 +611,12 @@
     autoWidth:true,
     items:3
 })</script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
     
   </body>
 </html>
