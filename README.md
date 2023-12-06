@@ -46,5 +46,4 @@ Welcome to BharatPe, your all-in-one fintech solution designed to revolutionize 
 ### future scope
 * Integration with more financial platforms.
 * Collaborative more transaction history.
-
 * used external package- bootstrap
