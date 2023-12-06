@@ -43,7 +43,7 @@ Welcome to BharatPe, your all-in-one fintech solution designed to revolutionize 
 ### What We've Learned:
 * Interaction with Bharatpe financial.
 * HTML and CSS basic javascript library.
+* used external package- bootstrap
 ### future scope
 * Integration with more financial platforms.
 * Collaborative more transaction history.
-* used external package- bootstrap
