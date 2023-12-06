@@ -302,4 +302,24 @@ footer .icon a i:hover {
     color: rgba(6, 147, 227, 1);
 }
 
+@media screen and (max-width:786px) {
+    footer {
+        max-width: 786px;
+    }
+
+    .footer-1-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-1-container {
+        margin: 0 59.6px;
+    }
+}
+
+.footer-div {
+    width: 100%;
+}
+
+
 /*footer ends*/
