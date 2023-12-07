@@ -22,11 +22,15 @@ Welcome to the BharatPe Project, a fintech initiative aimed at simplifying finan
 
 Follow these steps to get started with BharatPe:
 
-```bash
-# Install dependencies
-npm install
-
-# Start the application
-npm start
+## screenshots
+* [section-1](./screenshots/a1.jpg)
+* [section-2](./screenshots/a2.jpg)
+* [section-3](./screenshots/a3.jpg)
+* [section-4](./screenshots/r1.jpg)
+* [section-5](./screenshots/r2.jpg)
+* [section-6](./screenshots/r3.jpg)
+* [section-7](./screenshots/c1.jpg)
+* [section-8](./screenshots/c2.jpg)
+* [section-9](./screenshots/c3.jpg)
 
       
