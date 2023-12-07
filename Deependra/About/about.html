@@ -315,6 +315,81 @@
       <div class="Viewmore">
         <a href="/Bharat-Pe/Deependra/About/our_team.html">View All</a>
       </div>
+      <!-- time line -->
+      <div class="text-heading">
+        <h3>
+          History & Timeline
+          </h3>
+      </div>
+      <section>
+        <div class="time_line">
+          <div class="Date">
+            <img src="/Bharat-Pe/Deependra/image/line.png" alt="">
+            <div class="year">
+              <img src="/Bharat-Pe/Deependra/image/stage.png" alt="">
+              <p>2021</p>
+            </div>
+            <div class="year-2">
+              <img src="/Bharat-Pe/Deependra/image/stage.png" alt="">
+              <p>2022</p>
+            </div>
+            <!-- <div class="year-3">
+              <img src="/Bharat-Pe/Deependra/image/stage.png" alt="">
+              <p>2023</p> -->
+            <!-- </div> -->
+            <!-- <div class="Date">
+              <img src="/Bharat-Pe/Deependra/image/line.png" alt="">
+              <div class="year">
+                <img src="/Bharat-Pe/Deependra/image/stage.png" alt="">
+                <p>2021</p>
+              </div>
+              <div class="year-2">
+                <img src="/Bharat-Pe/Deependra/image/stage.png" alt="">
+                <p>2022</p>
+              </div>
+              <div class="year-3">
+                <img src="/Bharat-Pe/Deependra/image/stage.png" alt="">
+                <p>2023</p> 
+              </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- owl-2 -->
+      <div class="text-heading">
+        <h3>Awards & Accolades</h3>
+      </div>
+      <section>
+        <div class="owl-carousel-2 owl-theme award_2">
+          <div class="item award" style="width:294px">
+            <img src="/Bharat-Pe/Deependra/image/national-aw.jpg" alt="">
+            <h3>Sole Winner in the fintech category at National Startup Awards 2020</h3>
+          </div>
+          <div class="item award" style="width:294px"><img src="/Bharat-Pe/Deependra/image/fintech-aw-2022.jpg" alt="">
+            <h3>Exceptional Startup of the Year(Impacting Financial Inclusion) at Fintech Festival India Awards 2022</h3>
+          </div>
+          <div class="item award" style="width:294px">
+            <img src="/Bharat-Pe/Deependra/image/6.jpg" alt="">
+            <h3>Remarkable innovation in Consumer Lending for postpe at Fintech Festival India Awards 2022</h3>
+          </div>
+          <div class="item award" style="width:294px"><img src="/Bharat-Pe/Deependra/image/fiancial-express-logo.jpg" alt="">
+          <h3>
+            Won under the Fintech Category at ‘FE India’s Best Bank Awards’ organized by Financial Express
+          </h3></div>
+          <div class="item award" style="width: 294px;"><img src="/Bharat-Pe/Deependra/image/fintech-nbft.jpg" alt="">
+          <h3>
+            'Rising Star - FinTech company of the Year’ at NBFC & FinTech Excellence Awards 2022
+          </h3></div>
+          <div class="item award" style="width:294px"><img src="/Bharat-Pe/Deependra/image/emerging-bu-aw.jpg" alt="">
+          <h3>
+            'Best MSME Financing Institution’ at the BW Businessworld Emerging Business Awards 2022
+          </h3></div>
+          <div class="item award" style="width:294px"><img src="/Bharat-Pe/Deependra/image/excelece-legendary.jpg" alt=""><h3>'Excellence in Business Lending Award’ at India Digital Awards 2022 by IAMAI</h3></div>
+          <div class="item award" style="width:294px"><img src="/Bharat-Pe/Deependra/image/nasscom.jpg" alt=""><h3>Winner in the ‘Lending category’ at the NASSCOM India Fintech Awards 2020</h3></div>
+          <div class="item award" style="width:294px"><img src="/Bharat-Pe/Deependra/image/cb-insights.jpg" alt=""><h3>Featured in the 2021 CB Insights list of Top 250 Fintech Startups globally</h3></div>
+      </div>
+      </section>
+
     </main>
     <!--Footer start-->
     <footer>
@@ -514,6 +589,23 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
+
+var owl = $('.owl-carousel-2');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
     </script>
+    
   </body>
 </html>
