@@ -330,7 +330,17 @@ p::first-letter {
 }
 ```
 
-# Screen Shots
+# External package used
+## Google Font
+## Font Awesome
+## Swiper js 
+
+# Learnt about approches to make websites.... & about  markup language, stylesheet , html, css, some JS, about UI/UX etc...
+
+# Hosted Link
+https://sanjayvvarma.github.io/Bharat-Pe/
+
+# ScreenShots
 
 ![alt text](./screenshots/2.png)
 ![alt text](./screenshots/3.png)
