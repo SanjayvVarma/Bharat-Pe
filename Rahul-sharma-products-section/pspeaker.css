@@ -212,6 +212,132 @@ li.lending:hover .submenu-5 {
     text-align: center;
 }
 
+@media screen and (max-width:786px) {
+    nav {
+        position: static;
+        font-family: 'poppins', san-serif;
+        background-color: white;
+        z-index: 5;
+    }
+
+    .nav-items {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .nav-img img {
+        height: 32px;
+        width: 142px
+    }
+
+    nav ul {
+        display: flex;
+        width: fit-content;
+        font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        padding: 20px;
+        display: block;
+        position: relative;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: black;
+        font-family: 'poppins';
+        font-weight: 700;
+    }
+
+    .submenu-2,
+    .submenu-3,
+    .submenu-4,
+    .submenu-5 {
+        margin-left: 0;
+        transform: translate(0, -15px);
+
+    }
+
+    .submenu-1 li:hover {
+        cursor: pointer;
+    }
+
+    .submenu-2 .payments:hover .submenu-3 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    .product-menu:hover .submenu-1 {
+        display: flex;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    li.merchant:hover .submenu-2 {
+        display: block;
+        position: relative;
+        height: max-content;
+    }
+
+    li.consumer:hover .submenu-2 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
+
+    }
+
+    li.banking:hover .submenu-4 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
+
+    }
+
+    li.lending:hover .submenu-5 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
+    }
+
+
+
+}
+@media screen and (min-width:786px) and (max-width: 1167px) {
+    nav ul li {
+        margin: 16px;
+    }
+
+    .submenu-2 .payments:hover .submenu-3 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    .submenu-3 {
+        margin-left: 0;
+        transform: translate(0, -15px);
+
+    }
+}
+
 /*sub-menu*/
 
 

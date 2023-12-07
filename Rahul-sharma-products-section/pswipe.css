@@ -234,7 +234,7 @@ li.lending:hover .submenu-5 {
     padding-bottom: 24px;
     background-color: #f4f9ff;
     z-index: 2;
-    position: fixed;
+    position: sticky;
     top: 60px;
     width: 100%;
     display: flex;
@@ -262,6 +262,167 @@ li.lending:hover .submenu-5 {
     display: flex;
     align-items: center;
     padding: 0;
+
+}
+
+@media screen and (max-width:786px) {
+    nav {
+        position: static;
+        font-family: 'poppins', san-serif;
+        background-color: white;
+        z-index: 5;
+    }
+
+    .nav-items {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .nav-img img {
+        height: 32px;
+        width: 142px
+    }
+
+    nav ul {
+        display: flex;
+        width: fit-content;
+        font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        padding: 20px;
+        display: block;
+        position: relative;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: black;
+        font-family: 'poppins';
+        font-weight: 700;
+    }
+
+    .submenu-2,
+    .submenu-3,
+    .submenu-4,
+    .submenu-5 {
+        margin-left: 0;
+        transform: translate(0, -15px);
+
+    }
+
+    .submenu-1 li:hover {
+        cursor: pointer;
+    }
+
+    .submenu-2 .payments:hover .submenu-3 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    .product-menu:hover .submenu-1 {
+        display: flex;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    li.merchant:hover .submenu-2 {
+        display: block;
+        position: relative;
+        height: max-content;
+    }
+
+    li.consumer:hover .submenu-2 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
+
+    }
+
+    li.banking:hover .submenu-4 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
+
+    }
+
+    li.lending:hover .submenu-5 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
+    }
+
+    .below-nav {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        background-color: transparent;
+        z-index: 2;
+        position: relative;
+        top: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .below-div-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .below-div-item {
+        font-size: 13px;
+        font-family: 'poppins';
+        font-weight: 700;
+        color: blue;
+        padding: 1%;
+    }
+
+    .below-div-item::before {
+        content: ">> ";
+    }
+
+
+}
+
+@media screen and (min-width:786px) and (max-width: 1167px) {
+    nav ul li {
+        margin: 16px;
+    }
+
+    .submenu-2 .payments:hover .submenu-3 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    .submenu-3 {
+        margin-left: 0;
+        transform: translate(0, -15px);
+
+    }
+
 
 }
 
@@ -376,7 +537,27 @@ span.terms-and-conditions {
     font-size: 12px;
 }
 
+@media screen and (max-width:786px) {
+    .cards {
 
+        display: block;
+        flex-wrap: wrap;
+        margin: 0 100px;
+        justify-content: center;
+
+    }
+
+    .single-card {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 16px;
+        text-align: center;
+        background: transparent;
+        padding: 16px;
+
+    }
+}
 
 
 /*section-2*/
@@ -488,6 +669,94 @@ span.step {
 
 /*slider 2*/
 
+@media screen and (max-width:786px) {
+    .swiper {
+        width: auto;
+        height: 70vh;
+
+    }
+
+    /* slider-ends */
+    /*slider 1*/
+    .swiper-slide {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .slide-1-main {
+        display: block;
+        overflow: hidden;
+
+    }
+
+    .slide-1-main-para {
+        display: block;
+        flex-wrap: wrap;
+        align-self: center;
+        text-align: left;
+        color: #1C1C1C;
+    }
+
+    h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+
+
+    }
+
+    span.step {
+        font-size: 14px;
+        color: grey;
+        font-family: 'Poppins';
+        font-weight: 500;
+    }
+
+    /*slider 1*/
+    /*slider 2*/
+    .slider-2 {
+        background-color: #1C1C1C;
+
+    }
+
+    .slide-2 {
+        text-align: center;
+    }
+
+    .slide-2-main {
+        width: 100%;
+        display: block;
+        flex-wrap: wrap;
+        padding: 0 140px;
+
+    }
+
+    .slide-2-main-para {
+        display: block;
+        flex-wrap: wrap;
+
+    }
+
+    .slide-2 h3,
+    .slide-2 h4 {
+
+        color: white;
+        margin-bottom: 20px;
+        margin-left: 1rem;
+    }
+
+    .slide-2-main-para {
+        width: auto
+    }
+
+    .slide-2-main-img {
+        width: auto;
+        text-align: left;
+    }
+}
+
 
 /*contact container*/
 .contact-container {
@@ -579,6 +848,20 @@ span.step {
 
 ::placeholder {
     font-size: 15px;
+}
+
+
+@media screen and (max-width:786px) {
+    .fields input[type="text"] {
+        border-radius: 10px;
+        width: auto;
+        padding: 16px;
+        border-radius: 10px;
+        margin: 0 10px 10px;
+        padding: 16px;
+        border: 2px solid #cccccc;
+    }
+
 }
 
 /*contact container*/

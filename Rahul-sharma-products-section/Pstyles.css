@@ -12,18 +12,15 @@ body {
 
 nav {
     width: 100%;
-    height: 60px;
-    position: fixed;
+    position: sticky;
     font-family: 'poppins', san-serif;
     background-color: white;
     z-index: 5;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 
 
 .nav-items {
-
     margin: 0 94.6px;
     display: flex;
     justify-content: space-between;
@@ -54,7 +51,7 @@ nav {
 .submenu-5 li {
     display: inline-block;
     width: 100%;
-    margin: 15px;
+    margin-left: 25px;
     border: 1px solid;
     padding: 10px;
     border-radius: 5%;
@@ -98,7 +95,7 @@ li.merchant:hover .submenu-2 {
     width: 200px;
     z-index: 500;
     text-align: center;
-
+    height: max-content;
 }
 
 li.consumer:hover .submenu-2 {
@@ -165,7 +162,7 @@ nav ul {
 nav ul a {
     text-decoration: none;
     font-size: 14px;
-    padding: 30px 20px;
+    padding: 16px 20px;
     color: black;
     font-family: 'poppins';
     font-weight: 700;
@@ -230,64 +227,151 @@ nav ul li a i {
 }
 
 @media screen and (max-width:786px) {
-    .nav-items {
-
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    #products {
-        background: none;
-        color: rgb(4, 131, 249);
-        font-weight: bold;
-        text-decoration: none;
-        border-color: rgb(255, 255, 255);
-    }
-
     nav {
-        width: 100%;
-        height: auto;
-        position: fixed;
+        position: static;
         font-family: 'poppins', san-serif;
         background-color: white;
         z-index: 5;
-        box-shadow: none;
     }
 
-    .main-container {
-        height: 50vh;
+    .nav-items {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .nav-img img {
+        height: 32px;
+        width: 142px
+    }
+
+    nav ul {
         display: flex;
-        align-items: center;
+        width: fit-content;
+        font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .content {
-        margin: 200px 0;
+    nav ul li {
+        padding: 20px;
+        display: block;
+        position: relative;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: black;
+        font-family: 'poppins';
+        font-weight: 700;
+    }
+
+    .submenu-2,
+    .submenu-3,
+    .submenu-4,
+    .submenu-5 {
+        margin-left: 0;
+        transform: translate(0, -15px);
+
+    }
+
+    .submenu-1 li:hover {
+        cursor: pointer;
+    }
+
+    .submenu-2 .payments:hover .submenu-3 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    .product-menu:hover .submenu-1 {
+        display: flex;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    li.merchant:hover .submenu-2 {
+        display: block;
+        position: relative;
+        height: max-content;
+    }
+
+    li.consumer:hover .submenu-2 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
+
+    }
+
+    li.banking:hover .submenu-4 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
+
+    }
+
+    li.lending:hover .submenu-5 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: center;
     }
 
 
 
+}
+
+@media screen and (min-width:786px) and (max-width: 1167px) {
+    nav ul li {
+        margin: 16px;
+    }
+
+    .submenu-2 .payments:hover .submenu-3 {
+        display: block;
+        position: relative;
+        width: 200px;
+        z-index: 500;
+        text-align: right;
+
+    }
+
+    .submenu-3 {
+        margin-left: 0;
+        transform: translate(0, -15px);
+
+    }
 }
 
 .main-container {
-    padding: 50px 0;
-    border: 2px solid;
-
+    position: relative;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .content {
-    height: 120px;
-    margin: 0 59.60px;
-    padding: 0px 12px 40px 12px;
+    display: inline-block;
     font-family: "poppins", sans-serif;
     font-size: 65px;
     font-weight: 400;
     line-height: 65px;
-    position: relative;
-    top: 50px;
-    margin-bottom: 2%;
+}
+
+.main-container h2 {
+    display: inline-block;
+    margin-top: 10px;
 }
 
 /*footer start*/
