@@ -276,9 +276,10 @@ footer {
     letter-spacing: .4px;
     text-decoration: none;
     margin-right: 10px;
-    margin-left: 100px;
+    margin-left: 0px;
 
 }
+
 
 .ul .li:hover {
     color: #00AECA;
@@ -393,9 +394,17 @@ hr {
         display: none;
     }
 
+    .main-login{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
     nav .mobile-menu {
         display: initial;
-        /* padding-left: 11rem; */
     }
 
     .map{
@@ -449,25 +458,27 @@ hr {
       font-size: 80%;
     }
 
-    .footer-1{
-        padding: 10px 10px;
+    .footer-1-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-1-container {
+        margin: 0 21.6px;
+    }
+
+    .footer-1 {
         width: 100%;
     }
-   .footer-1-container{
-    flex-direction: column;
-    width: 100%;
-    padding: 0 5px;
-    margin: 0;
-   }
 
-   .fl-1-para{
-    width: 100%;
-    padding: 0;
-   }
+    .fl-1-para {
+        width: 25rem;
+    }
 
-   .footer-div-1{
-    width: fit-content;
-   }
+    .p-12 {
+        width: 100%;
+    }
+
    
 }
 
@@ -493,6 +504,18 @@ hr {
 
     .nav-button{
         display: none;
+    }
+    .main-login{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .mobile-menu {
+        display: initial;
     }
     
     .footer-3-container{
