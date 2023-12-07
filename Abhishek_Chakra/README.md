@@ -8,26 +8,56 @@
 
 Welcome to the BharatPe Project, a fintech initiative aimed at simplifying financial transactions and empowering businesses in India.
 
-## Features
+### Technologies Used
+* HTML
+* CSS
+* JavaScript (for owl carousel & slider) 
+* Chrome Extension (for color and font-famaly)
 
-- **QR Code Payments:** Swift and secure transactions through QR codes, revolutionizing the way businesses and customers handle payments.
+### How to Run
+1. Clone the repository.
+2. Open index.html in your browser.
 
-- **Business Loans:** Access quick and hassle-free business loans to fuel the growth of your venture.
+### Credits
+#### Mentor
+* Abhay Chouhan -Special Thanks for guiding and providing valuable insights throughout the project development process.
+#### Educators
+* Akhil Sharma -A dedicated educator passionate about empowering students with practical coding skills.
+* Ankit Singh -Thanks for your contributed valuable feedback and guidance.
+#### Management
+* Priyanshu -Led project planning and coordination efforts, ensuring smooth collaboration and communication among team members.
 
-- **Digital Storefront:** Elevate your business online with BharatPe's Digital Storefront. Showcase products and reach a broader audience effortlessly.
+* Shrine Dasgupta -Managed project timelines and milestones, facilitating a structured and organized development process.
 
-- **Smart Analytics:** Make informed decisions with our intuitive analytics tools. Track sales, understand customer behavior, and strategize for success.
+#### Team
+* Sanjay Varma
+* Deependra 
+* Rahul Sharma
+* Abhisek chakrawarti
+* princy sahaniya
+
+## CONTACT US- BharatPe
+
+### Description
+BharatPe - Empowering Your Financial Journey
+Welcome to BharatPe, your all-in-one fintech solution designed to revolutionize the way you manage and grow your business. Discover a world of seamless transactions, access to quick business loans, and a digital storefront to elevate your online presence.At bharatpe we are on in mission to empower businees across india by fincial technology. Displaying the company's address, phone numbers.
+### What We've Learned:
+* Interaction with Bharatpe financial.
+* HTML and CSS .
+* used AOS animatian
+### future scope
+* Integration with more financial platforms.
+* Collaborative more transaction history.
+
+
 
 ## Screenshots
 
-* [section-1](./images/1.jpg)
-* [section-2](./images/2.jpg)
-* [section-3](./images/3.jpg)
-* [section-4](./images/4.jpg)
-* [section-5](./images/5.jpg)
-* [section-6](./images/6.jpg)
-* [section-7](./images/7.jpg)
-* [section-8](./images/8.jpg)
+* [section-1](./image/sc1.png)
+* [section-2](./image/sc2.png)
+* [section-3](./image/sc3.png)
+* [section-4](./image/sc4.png)
+* [section-5](./image/sc5.png)
 
 
 
