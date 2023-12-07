@@ -101,6 +101,42 @@ nav ul li {
   color: #2b7bff;
   padding: 6px;
 }
+.section-about{
+margin-top: 0.7rem;
+}
+.div-about{
+  display: flex;
+  padding: 3rem 3rem 0rem 3rem;
+  gap: 3.6rem;
+ transition: all 0.125s ease-in-out;
+}
+.div-about:hover{
+  transform: scale(1.2);
+}
+
+
+.dev-img img{
+  width: 10rem;
+}
+.right{
+  padding: 3rem 0 0 3rem;
+}
+.left{
+  padding: 2rem 2.4rem 0 0rem;
+}
+.bottom{
+  padding-top: 3rem;
+}
+
+.div-about-2{
+  display: flex;
+  gap:15rem;
+  padding: 0 1rem 1rem 2rem;
+}
+
+.div-about-2 img{
+  width: 10rem;
+}
 
 .hidden {
   display: none;
