@@ -18,15 +18,17 @@ Welcome to the BharatPe Project, a fintech initiative aimed at simplifying finan
 
 - **Smart Analytics:** Make informed decisions with our intuitive analytics tools. Track sales, understand customer behavior, and strategize for success.
 
-## Installation
+## Screenshots
 
-Follow these steps to get started with BharatPe:
+* [section-1](./images/1.jpg)
+* [section-2](./images/2.jpg)
+* [section-3](./images/3.jpg)
+* [section-4](./images/4.jpg)
+* [section-5](./images/5.jpg)
+* [section-6](./images/6.jpg)
+* [section-7](./images/7.jpg)
+* [section-8](./images/8.jpg)
 
-```bash
-# Install dependencies
-npm install
 
-# Start the application
-npm start
 
-      
+    
