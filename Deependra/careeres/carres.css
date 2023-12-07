@@ -640,14 +640,14 @@ footer i:last-child {
   }
 
   .shubham-1 h1 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
 }
 .view a {
   
-  padding: 8px 0px;
-  top: 77%;
-  left: 30%;
+  padding: 0;
+    top: 82%;
+    left: 16%;
 }
   .main-section {
     padding-top: 0px;
