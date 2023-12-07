@@ -90,6 +90,10 @@ nav ul li {
   font-size: 12px;
   text-transform: uppercase;
 }
+.nav-button-container-text-img a{
+  text-decoration: none;
+  color: #2B7BFF;
+}
 
 .fa-solid {
   color: black;
