@@ -862,6 +862,14 @@ span.step {
         border: 2px solid #cccccc;
     }
 
+    .header {
+        display: inline-block;
+        justify-content: center;
+        padding: 20px;
+        margin: 50px;
+        position: relative;
+        overflow: hidden;
+    }
 }
 
 /*contact container*/
