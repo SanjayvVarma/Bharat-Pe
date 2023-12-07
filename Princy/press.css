@@ -207,8 +207,8 @@ nav .mobile-menu {
 .container1 {
     margin-top: 7%;
     background: overlay;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto;
     /* min-height: 1440px; */
 }
 
@@ -668,6 +668,7 @@ hr {
     }
 
     .container1 {
+        grid-template-columns: auto;
         margin-top: 3%;
     }
 
